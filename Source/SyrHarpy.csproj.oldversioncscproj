@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50912732-7462-4C34-AFB6-73D548A4C249}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SyrHarpy</RootNamespace>
+    <AssemblyName>SyrHarpy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alert_MajorBloodlust.cs" />
+    <Compile Include="Alert_MinorBloodlust.cs" />
+    <Compile Include="BloodlustAlertUtility.cs" />
+    <Compile Include="BoredPawnsPatch.cs" />
+    <Compile Include="CalculatePartEfficiencyPatch.cs" />
+    <Compile Include="Command_HarpyFly.cs" />
+    <Compile Include="CompProperties_HarpyComp.cs" />
+    <Compile Include="CompProperties_HarpyMoteEmitter.cs" />
+    <Compile Include="CompUseEffect_LightningImplant.cs" />
+    <Compile Include="Comp_HarpyMoteEmitter.cs" />
+    <Compile Include="CostToMoveIntoCellPatch.cs" />
+    <Compile Include="CreateVerbTargetCommandPatch.cs" />
+    <Compile Include="DamageWorker_HarpyLightning.cs" />
+    <Compile Include="DoRecruitPatch.cs" />
+    <Compile Include="DrawThingRowPatch.cs" />
+    <Compile Include="FindPathPatch.cs" />
+    <Compile Include="FlyAbilitySkyfaller.cs" />
+    <Compile Include="GenerateTechHediffsForPatch.cs" />
+    <Compile Include="GetInfoCardHyperlinksPatch.cs" />
+    <Compile Include="GrowingZone_CanDesignateCellPatch.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HarpyComp.cs" />
+    <Compile Include="HarpyDefOf.cs" />
+    <Compile Include="HarpyLightning.cs" />
+    <Compile Include="HarpyMote.cs" />
+    <Compile Include="HarpyUtility.cs" />
+    <Compile Include="HasPartsToWearPatch.cs" />
+    <Compile Include="IngestedPatch.cs" />
+    <Compile Include="JobDriver_FlyAbility.cs" />
+    <Compile Include="JobGiver_GetJoyPatch.cs" />
+    <Compile Include="JobGiver_HarpyGetJoy.cs" />
+    <Compile Include="JobGiver_HarpyGetJoyInGatheringArea.cs" />
+    <Compile Include="JobGiver_HarpyIdleJoy.cs" />
+    <Compile Include="JoyTickCheckEndPatch.cs" />
+    <Compile Include="LordToilTickPatch.cs" />
+    <Compile Include="MindStateTickPatch.cs" />
+    <Compile Include="NeedOutdoors_NeedIntervalPatch.cs" />
+    <Compile Include="Need_Bloodlust.cs" />
+    <Compile Include="NegativeInteractionChanceFactorPatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomSelectionWeightPatch.cs" />
+    <Compile Include="Recipe_ChangeLightningAmplifier.cs" />
+    <Compile Include="Recipe_InstallPart.cs" />
+    <Compile Include="RulesForPawnPatch.cs" />
+    <Compile Include="SecondaryLovinChanceFactorPatch.cs" />
+    <Compile Include="ShouldHaveNeedPatch.cs" />
+    <Compile Include="SocialFightChancePatch.cs" />
+    <Compile Include="SyrHarpyExtension.cs" />
+    <Compile Include="TechHediffCount.cs" />
+    <Compile Include="ThinkNode_ConditionalRace.cs" />
+    <Compile Include="Toils_Harpy.cs" />
+    <Compile Include="TryDropEquipmentPatch.cs" />
+    <Compile Include="TryFindIngestibleToNursePatch.cs" />
+    <Compile Include="Verb_Lightning.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
