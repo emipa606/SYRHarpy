@@ -1,4 +1,7 @@
 # Changelog for SYRHarpy
 
+1.0.1.0 - Wounds and bionics should now be at the correct place
+
+
 1.0.0.0 - First publish
 

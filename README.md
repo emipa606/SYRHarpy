@@ -7,6 +7,15 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2092823139
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/SYRHarpy]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
@@ -24,7 +33,7 @@ Their claws are razor sharp and make them deadly in melee. Keeping your distance
 While being as versatile as humans when it comes to most forms of work they rely on their claws and lightning attacks for defense as they are incapable of wielding any type of weapon. And despite their beauty their need to fight will make them somewhat hard to integrate into a working colony, especially with other harpies around.
 
 **WARNING:** They are a fairly challenging race. Their lack of joy and easy food buffs makes them hard to keep happy. Bloodlust as new need is brutal if not managed, as low bloodlust can lead to them going berserk, which is an extreme mental break. Beware.
-To manage Bloodlust allow them to attack any pawn (animal or humanoid) regularly. You can use prisoners, your own colonists or hunting, if you aren&apos;t attacked.
+To manage Bloodlust allow them to attack any pawn (animal or humanoid) regularly. You can use prisoners, your own colonists or hunting, if you aren't attacked.
 
 Advantages:
 
@@ -77,7 +86,7 @@ Disadvantages:
 -  Not even as ingredient
 -  You can add claw and wing prosthetics even onto other prosthetics
 -  Let harpies butcher humans, they always ignore the negative thought
--  They basically have the bloodlust trait baked into them, they also don&apos;t mind corpses
+-  They basically have the bloodlust trait baked into them, they also don't mind corpses
 
 
 
@@ -88,20 +97,14 @@ Incompatible with:
 **Lost Forest**
 Should be fixed. Let me know.
 **NewRatkinPlus**
-AdditonalVerb framework causes endless NREs when you try to use fly ability. Either don&apos;t use fly or uninstall Ratkin.
+AdditonalVerb framework causes endless NREs when you try to use fly ability. Either don't use fly or uninstall Ratkin.
 
 
 __________
 
 
 Also check out my other Rimworld mods:
-https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis&apos; Mods
-
-If you enjoy my mods consider supporting me:
-https://www.patreon.com/syrchalis]![Image](https://i.imgur.com/NNM7mbP.png)
-
-https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
-
+https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
 
@@ -113,6 +116,7 @@ https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
