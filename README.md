@@ -1,23 +1,14 @@
 # SYRHarpy
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Syrchaliss mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2092823139
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/SYRHarpy]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 ### **Adds bird people**
 
@@ -106,7 +97,7 @@ __________
 Also check out my other Rimworld mods:
 https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -116,7 +107,6 @@ https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 
